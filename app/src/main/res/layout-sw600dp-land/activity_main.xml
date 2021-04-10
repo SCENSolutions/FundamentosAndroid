@@ -8,26 +8,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="369dp"
+        android:layout_height="78dp"
         android:text="@string/label_bienvenido"
-        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#F8F5F5"
+        android:textSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
+        app:layout_constraintVertical_bias="0.13" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="224dp"
-        android:layout_height="58dp"
-        android:background="@color/white"
+        android:layout_width="540dp"
+        android:layout_height="165dp"
+        android:background="#00FFFFFF"
         android:text="@string/boton_entrar"
-        android:textSize="30sp"
-        app:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="322dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

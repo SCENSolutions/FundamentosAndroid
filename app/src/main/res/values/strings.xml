@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fundamentos Android</string>
+    <string name="label_bienvenido">Bienvenido</string>
+    <string name="boton_entrar">Entrar</string>
 </resources>
